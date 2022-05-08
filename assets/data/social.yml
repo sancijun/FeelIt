@@ -1,11 +1,69 @@
-# 001: Github
-github:
+# 001: wexin
+wechat:
   Weight: 1
+  Prefix: https://space.bilibili.com/
+  Title: WeChat
+  Icon:
+    Simpleicons: wechat
+
+# 002: bilibili
+bilibili:
+  Weight: 2
+  Prefix: https://space.bilibili.com/
+  Title: bilibili
+  Icon:
+    Simpleicons: bilibili
+
+# 003: Github
+github:
+  Weight: 3
   Prefix: https://github.com/
   Title: GitHub
   Icon:
     Class: fab fa-github-alt fa-fw
 
+# 004: Gitee
+gitee:
+  Weight: 4
+  Prefix: https://gitee.com/
+  Title: Gitee
+  Icon:
+    Simpleicons: gitee
+
+# 021: 微博
+weibo:
+  Weight: 21
+  Prefix: https://weibo.com/
+  Title: 微博
+  Icon:
+    Class: fab fa-weibo fa-fw
+
+# 044: 知乎
+zhihu:
+  Weight: 44
+  Prefix: https://www.zhihu.com/people/
+  Title: 知乎
+  Icon:
+    Simpleicons: zhihu
+
+# 045: 豆瓣
+douban:
+  Weight: 45
+  Prefix: https://www.douban.com/people/
+  Title: 豆瓣
+  Icon:
+    Simpleicons: douban
+
+# 066: RSS
+rss:
+  Weight: 66
+  Url: /index.xml
+  Title: RSS
+  Newtab: true
+  Icon:
+    Class: fas fa-rss fa-fw
+
+###################################
 # 002: LinkedIn
 linkedin:
   Weight: 2
@@ -157,14 +215,6 @@ stackoverflow:
   Title: Stack Overflow
   Icon:
     Class: fab fa-codepen fa-fw
-
-# 021: 微博
-weibo:
-  Weight: 21
-  Prefix: https://weibo.com/
-  Title: 微博
-  Icon:
-    Class: fab fa-weibo fa-fw
 
 # 022: OK.RU
 odnoklassniki:
@@ -342,22 +392,6 @@ whatsapp:
   Icon:
     Class: fab fa-whatsapp fa-fw
 
-# 044: 知乎
-zhihu:
-  Weight: 44
-  Prefix: https://www.zhihu.com/people/
-  Title: 知乎
-  Icon:
-    Simpleicons: zhihu
-
-# 045: 豆瓣
-douban:
-  Weight: 45
-  Prefix: https://www.douban.com/people/
-  Title: 豆瓣
-  Icon:
-    Simpleicons: douban
-
 # 046: Angellist
 angellist:
   Weight: 46
@@ -485,14 +519,6 @@ matrix:
   Icon:
     Simpleicons: matrix
 
-# 062: bilibili
-bilibili:
-  Weight: 62
-  Prefix: https://space.bilibili.com/
-  Title: bilibili
-  Icon:
-    Simpleicons: bilibili
-
 # 063: Email
 email:
   Weight: 63
@@ -517,15 +543,6 @@ xda:
   Newtab: true
   Icon:
     Simpleicons: xdadevelopers
-
-# 066: RSS
-rss:
-  Weight: 66
-  Url: /index.xml
-  Title: RSS
-  Newtab: true
-  Icon:
-    Class: fas fa-rss fa-fw
 
 # 067: Kaggle
 kaggle:
